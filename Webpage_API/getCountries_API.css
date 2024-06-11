@@ -1,0 +1,90 @@
+/*-------------------------------Some Webpage Style----------------------------------*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+       font-family: "Poppins", sans-serif
+}
+
+
+body {
+       font-size: 25px;
+       margin-left: 170px;
+       margin-right: 170px;
+       background-color: whitesmoke;
+}
+
+
+h1 {
+       font-size: 57px ! important;
+}
+
+
+footer {
+       margin-top: 400px;
+}
+
+
+input {
+       width: 100%;
+       height: 70%;
+}
+
+/*-------------------------------Responsiveness----------------------------------*/
+
+
+@media screen and (max-width: 768px) {
+
+       body {
+              font-size: 17px ! important;
+              margin-left: 28px ! important;
+              margin-right: 15px ! important;
+       }
+
+       h1 {
+              font-size: 40px ! important;
+       }
+
+       footer {
+              margin-left: -27px;
+              margin-top: 200px;
+              width: 570px;
+       }
+
+       input {
+              width: 100%;
+              height: 70%;
+       }
+
+
+       nav {
+              margin-left: -28px;
+       }
+
+}
+
+
+/* Style to make the sidebar responsive */
+.w3-sidebar {
+       z-index: 3;
+       width: 240px;
+       font-weight: bold;
+       overflow-x: hidden;
+       position: fixed;
+}
+
+
+/* Style to make the top menu on small screens responsive */
+.w3-top.w3-hide-large {
+       display: block;
+}
+
+
+/* Style to make the header responsive */
+header {
+       text-align: center;
+       padding: 20px;
+}

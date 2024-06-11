@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+       <title>Get Countries</title>
+
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+       <link rel="stylesheet" href="getCountries_API.css">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+       <script src="getCountries_API.js"></script>
+
+</head>
+
+<body>
+
+       <!--------------------------- Top menu on small screens------------------------->
+
+       <header style="margin-left: -28px;"
+              class="w3-container w3-top w3-margin-bottom w3-hide-large w3-green w3-xlarge w3-padding">
+
+              <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
+
+              <span><b>Menu</b></span>
+       </header>
+
+       <!-- Overlay effect when opening sidebar on small screens -->
+       <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+              id="myOverlay"></div>
+
+       <!-- Header -->
+       <div class="w3-container" style="margin-top:30px" id="showcase"></div>
+
+       <!------------------------------- Sidebar menu ---------------------------------->
+
+       <div>
+              <nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding"
+                     style="z-index:3;width:240px;font-weight:bold;" id="mySidebar"><br>
+
+                     <a href="javascript:void(0)" onclick="w3_close()"
+                            class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close
+                            Menu</a>
+                     <hr class="w3-hide-large" style=" width: 100%;">
+                     <div class="w3-container">
+                            <h2 style="margin-top:-5%" class="w3-center"><b>Search Country by</b></h2>
+                     </div>
+                     <br>
+                     <br>
+
+                     <div id="buttonsList" class="w3-bar-block">
+                            <button id="buttonName" onclick="searchBy('name')"
+                                   class="w3-bar-item w3-text-blue w3-button w3-hover-grey w3-white w3-round-xlarge w3-center w3-margin-bottom">Name</button>
+
+                            <input id="textName" type="text" class="w3-center w3-text-grey w3-round">
+
+                            <hr style=" width: 100%;">
+
+                            <button id="buttonCapital" onclick="searchBy('capital')"
+                                   class="w3-bar-item w3-text-blue w3-button w3-hover-grey w3-white w3-round-xlarge w3-center w3-margin-bottom">Capital
+                                   City</button>
+
+                            <input id="textCapital" type="text" class="w3-center w3-text-grey w3-round">
+
+                            <hr style=" width: 100%;">
+
+                            <button id="buttonRegion" onclick="searchBy('region')"
+                                   class="w3-bar-item w3-text-blue w3-button w3-hover-grey w3-white w3-round-xlarge w3-center w3-margin-bottom">Region</button>
+
+                            <input id="textRegion" type="text" class="w3-center w3-text-grey w3-round">
+
+                            <hr style=" width: 100%;">
+
+                            <button id="buttonLang" onclick="searchBy('lang')"
+                                   class="w3-bar-item w3-text-blue w3-button w3-hover-grey w3-white w3-round-xlarge w3-center w3-margin-bottom">Language</button>
+
+                            <input id="textLang" type="text" class="w3-center w3-text-grey w3-round">
+
+                            <hr style=" width: 100%;">
+
+                            <button id="buttonCurrency" onclick="searchBy('currency')"
+                                   class="w3-bar-item w3-text-blue w3-button w3-hover-grey w3-white w3-round-xlarge w3-center w3-margin-bottom">Currency</button>
+
+                            <input id="textCurrency" type="text" class="w3-center w3-text-grey w3-round">
+
+                            <hr style=" width: 100%;">
+
+                     </div>
+              </nav>
+
+       </div>
+
+       <!-----------------------------------PAGE CONTENT------------------------------------>
+
+
+       <div class="w3-main w3-margin-top" style="margin-left:240px">
+              <header>
+                     <h1 class="w3-center w3-text-blue w3-text-ocean-blue"><b>GET COUNTRIES</b></h1><br>
+              </header>
+
+              <hr style="border:7px solid blue; margin-left:12%; width:80px" class="w3-round">
+
+              <br>
+
+              <div class="w3-container" style="margin-top:40px">
+
+                     <p id="flag" class="w3-center">
+
+                     </p>
+
+                     <br><br>
+
+                     <h1 class="w3-center w3-xxxlarge w3-text-blue"><b>WELCOME, </b></h1>
+                     <br>
+                     <h2 class="w3-center w3-text-blue"><b>FEEL FREE TO EXPLORE THE SIDEBAR MENU !!!!</b></h2>
+                     <br>
+                     <br>
+
+                     <table style="margin-right: 100px;" class="w3-table w3-border w3-bordered w3-blue" id="content">
+                     </table>
+
+                     <hr>
+              </div>
+              <h2 id="thanks" class="w3-center w3-text-grey"><b></b></h2>
+       </div>
+
+       <div>
+              <footer>
+                     <div class="w3-white w3-container w3-padding-16">
+                            <p class="w3-right w3-padding">Powered by GET COUNTRIES</p>
+                     </div>
+              </footer>
+       </div>
+
+</body>
+
+</html>
