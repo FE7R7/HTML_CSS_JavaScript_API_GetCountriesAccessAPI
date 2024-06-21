@@ -73,3 +73,12 @@ Conclusion:
 I can conclude at the end of the project that it made it possible for me to consolidate the knowledge involved, but especially on how to access the desired data through the API and analyze it in JSON format, as well as practice using the eventListener to add events. 
 
 I can also mention that it was of great value after processing the data obtained from the API, practicing how to display them, building the page and working with the HTML tags within the JS file.
+
+
+<img width="1424" alt="10" src="https://github.com/FE7R7/HTML_CSS_JavaScript_AccessAPI/assets/147453330/fe21039c-7e56-4d5d-98f9-be911104fdf1">
+
+
+
+
+
+
