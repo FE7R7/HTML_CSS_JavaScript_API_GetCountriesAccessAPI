@@ -8,9 +8,7 @@ Introduction:
 
 This documentation is about how the project was built and its features.
 
-The project purpose is to access the restcountries.com API and make various data from different countries available through a web page that allows the user different types of research related to the countries. 
-
-Build a pleasant page with well-structured features. Regarding the code specifically, one objective is to use good practices, such as keeping parentheses aligned and providing comments that support the code.
+The project purpose is to access the restcountries.com API and make various data from different countries available through a web page that allows the user different types of research related to the countries around the world.
 
 
 ---------------------------------------------------//---------------------------------------------------
