@@ -1,4 +1,4 @@
-# HTML_CSS_JavaScript_AccessAPI
+# HTML_CSS_JavaScript_GetCountriesAccessAPI
 
 
 A webpage that uses the restcountries.com API
